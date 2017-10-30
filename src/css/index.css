@@ -1,0 +1,361 @@
+
+/*--->	清除浮动	<---*/
+
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*--->		header 	<---*/
+
+
+.wrod{
+	width: 100%;
+	overflow: hidden;
+}
+.head{
+	background: #2e3a4b;
+	color:#b2b2b2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.head div{
+	padding: 0;
+}
+/*--->		nav 	<---*/
+
+.navs{
+	width: 100%;
+	background: #fdedd8;
+	padding-top: 26px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 26px;
+}
+.ulArr li{
+	/*font-size: 12px;*/
+	transition: all 0.3s;
+	margin-top: 10px;
+	padding: 5px 5px 5px 5px;
+}
+
+.ulArr li:hover{
+	background: #34b3e0;
+}
+
+
+
+/*--->		tab 	<---*/
+.tab{
+	background: url(../img/btn.png);
+	padding-top: 65px;
+	padding-bottom:56px;
+	background-position: center;
+	background-size: 120% 120%;
+}
+.tab-foot{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.tab-head{
+	 color: #fff;
+	 font-size: 18px;
+	 padding:16px 0 18px 0;
+}
+.fen{
+width: 120%;
+height: 1px;
+background: #f3a641;
+}
+.bom-footer div{
+	padding: 0;
+}
+.bor{
+	border: 0px;
+}
+.input{
+	margin-top: 65px;
+	margin-bottom: 55px;
+	padding-bottom: 20px;
+	border-radius: 10px; 
+	background: rgba(0,0,0,0.3);
+}
+.ina{
+	border:2px solid #fff;
+	border-radius: 5px;
+}
+.but{
+	margin-top: 22px;
+	width: 100%;
+	font-size: 18px;
+	border-radius: 5px;
+	background: #ff8d16;
+	border:none;
+	color:#fff;
+	margin-top: 20px;
+	padding:12px 0 12px 0;
+}
+
+
+
+
+/*--->		交易 	<---*/
+
+.transaction{
+	width: 100%;
+	padding: 50px 0 50px 0;
+}
+.transaction div{
+	width: 33.33333%;
+	float: left;
+	text-align: center;
+	border-left: 1px solid #ccc;
+}
+.transaction div p{
+	width:50%;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.transaction div p span{
+	color: #fe7f40;
+}
+.transaction div h2{
+	margin-top: 20px;
+}
+
+.transaction div:nth-child(3) p{
+	margin-top: 25px;
+}
+
+/*--->		营业 	<---*/
+
+
+.business{
+	width: 100%;
+	padding: 46px 0 77px 0;
+	background: url(../img/4.png) no-repeat;
+	background-position: center; 
+}
+.business h1{
+	color: #fff;
+}
+.business h1 button{
+	color: #FF6600;
+}
+.business h1 span{
+	color: red;
+}
+.liArr{
+	width: 38%;
+	margin: 0 auto;
+	text-align: left;
+}
+.liArr li{
+	margin-top: 24px;
+}
+.liArr li span{
+	color: #DDDF51;
+}
+
+
+
+/*--->	推荐产品  <---*/
+
+
+.recommend{
+	width: 100%;
+	background: #FAFAFA;
+}
+.line{
+	height: 1px;
+	margin-top: 2.5%;
+	background: #ccc;
+}
+
+.p-text{
+	margin-top: 30px;
+	line-height: 30px;
+	color: #999;
+	font-size: 18px;
+	color: #5b5;
+}
+.rows{
+	width: 100%;
+	padding-bottom: 62px;
+}
+.rows-ds{
+	width: 18%;
+	padding: 5px 5px 14px 5px;
+	float: left;
+	background: #fff;
+	margin-left: 6%;
+	border:1px solid #ccc;
+}
+.rows-ds img{
+	width: 100%;
+}
+.ds-pOne{
+	margin-top: 14px;
+}
+.ds-dOne{
+	width: 100%;
+}
+.ds-dOne p{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	width: 32.99999%;
+}
+.ds-dOne p span{
+	color: #FF3838;
+	font-size: 14px;
+}
+.ds-dTow p{
+	width: 72%;
+	margin-top: 5%;
+	height: 4px;
+	float: left;
+	background: #ccc;
+	border-radius: 10%;
+}
+
+.ds-dTow span{
+	margin-left: 10px;
+	font-size: 12px;
+	color: #46BAE3;
+}
+.rows-ds button{
+	width: 90%;
+	margin-left: 5%;
+	padding: 10px 0 10px 0;
+	border:none;
+	border-radius: 10px;
+	background: #F49335;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+/*--->	咨询  <---*/
+
+
+
+
+.advisory{
+	width: 100%;
+	color: #676767;
+	background: #F5F5F5;
+}
+.left{
+	width: 47.3%;
+	float: left;
+}
+.left-head{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 18px;
+	padding: 32px 0 12px 0;
+}
+.left-head .rig{
+	float: right;
+}
+.left-foot{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.time{
+	float: right;
+}
+.left-foot div{
+	float: left;
+}
+.left-foot div:nth-child(2){
+	padding-left: 33px;
+}
+.right{
+	width: 47.5%;
+	float: left;
+	margin-left: 5%;
+}
+.right li{
+	margin-bottom: 24px;
+	font-size: 13px;
+}
+.right li span{
+	float: right;
+}
+.right ul{
+	margin-left: 0;
+}
+
+
+/*--->	合作伙伴  <---*/
+
+.partner{
+	width: 100%;
+	padding: 47px 0 60px 0;
+}
+.partner div:nth-child(1){
+	width: 20%;
+	border-right: 1px solid #ccc;
+	float: left;
+	font-size: 24px;
+	padding: 52px 0 52px 0;
+}
+.partner div:nth-child(2){
+	width: 80%;
+	float: left;
+	padding-top: 10px;
+
+}
+
+/*--->	底部  <---*/
+.Foter{
+	width: 100%;
+	background: url(../img/foot.png) no-repeat;
+	background-position: center top;
+	padding-top: 247px;
+	color: #647588;
+}
+.fot{
+	border-top: 1px solid #647588;
+	padding: 23px 0 24px 0;
+}
+.cen{
+	border-top: 1px solid #647588;
+	font-size: 12px;
+	padding: 20px 0 20px 0;
+}
+.cen a{
+	color: #647588;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
